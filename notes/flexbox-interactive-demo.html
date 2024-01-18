@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="../_app/immutable/assets/0.m9335KO4.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/7.FAflzUGO.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/material-darker.OLJkl-ln.css" rel="stylesheet">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.gsKrTxvZ.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/entry.o3CUrgcy.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/scheduler.GqJZMtd-.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/paths.mZtdBGh1.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.UWFQptXc.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/index.q3r7dXMJ.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/0.C_Y18N85.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/stores.Db3WTypj.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/7.W2E1SWYL.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/material-darker.bkMuHEPm.js"><title>Flexbox Demo</title><!-- HEAD_svelte-19szg6f_START --><meta name="description" content="Interactive Flexbox Demo"><!-- HEAD_svelte-19szg6f_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app svelte-sk37nm"> <header> <nav class="main-nav svelte-170wtto"><ul class="svelte-170wtto"><li class="title svelte-170wtto"><a class="title svelte-170wtto" href="../" data-svelte-h="svelte-13lomly">Matt Roberts</a></li> <li class="svelte-170wtto"><a class="link svelte-170wtto" href="../apps" data-svelte-h="svelte-lrkjlt">Apps</a></li> <li class="svelte-170wtto"><a class="link svelte-170wtto" href="../clients" data-svelte-h="svelte-131misd">Clients</a></li> <li class="svelte-170wtto"><a class="link svelte-170wtto" href="../notes" data-svelte-h="svelte-1ropif7">Notes</a></li> <li class="svelte-170wtto" data-svelte-h="svelte-d24lqj"><a class="link svelte-170wtto" href="/portfolio/_app/immutable/assets/matt-roberts-resume.4FzPFmTN.pdf" target="_blank">Resume</a></li></ul></nav>  </header> <main> <div class="content svelte-13vdg2l"><h1 class="svelte-13vdg2l" data-svelte-h="svelte-ojjflz">Flexbox Interactive Demo</h1> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-rbfupl">Note: the demo is at the end of this page of notes.</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-1p9is0a">Flexbox can take a little while to get the hang of sometimes.</p> <p class="svelte-13vdg2l" data-svelte-h="svelte-1jbixb2">The principles of Flexbox are simple.  Flexbox is used to align items in a container.  The container has properties and the individual items can have properties too.</p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-2sbj0t">Opting-in</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-1h1r5wf">First there is opting-in to flex.  For your container, you add the following code:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">display</span>: flex<!-- HTML_TAG_END --></code></pre> </p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-1cdrz0s">Sizing</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-cakmik">To make your flex container expand to fill the available space you can do:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span><!-- HTML_TAG_END --></code></pre> </p> <p class="svelte-13vdg2l" data-svelte-h="svelte-uso5t6">Or you can give it a width and height like so:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">width</span>: <span class="hljs-number">300</span>;<!-- HTML_TAG_END --></code></pre> </p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">height</span>: <span class="hljs-number">300</span>;<!-- HTML_TAG_END --></code></pre> </p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-1u3s97d">flex-direction</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-prwxnk">The next thing to consider is flex-direction.  Do you want your items to be laid out in a column:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">flex-direction</span>: column;<!-- HTML_TAG_END --></code></pre> </p> <p class="svelte-13vdg2l" data-svelte-h="svelte-lu3bdl">or in a row:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">flex-direction</span>: row;<!-- HTML_TAG_END --></code></pre> </p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-1n67bnk">flex-wrap</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-11b98al">Then there is flex-wrap, which determines if your items will be wrapped within the container:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">flex-wrap</span>: wrap;<!-- HTML_TAG_END --></code></pre> </p> <p class="svelte-13vdg2l" data-svelte-h="svelte-1xvd0di">or not:</p> <p class="code svelte-13vdg2l"> <pre data-language="css" class=" svelte-11sh29b"><code class="hljs"><!-- HTML_TAG_START --><span class="hljs-attribute">flex-wrap</span>: nowrap;<!-- HTML_TAG_END --></code></pre> </p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-yv08m6">justify-content</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-a44wce">Then there is justify-content, which determines how items will be laid out in the same direction as the row or column.</p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-2bdnq1">align-content</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-nphs27">Then there is align-content, which determines how items will be laid out perpendicular to the row or column.</p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-1tj850q">align-items</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-13z6u1y">Then there is align-items, which determines how items will be laid out perpendicular to the row or column but within the row or column.</p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-4ulmsa">Item Properties</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-1fgulr2">There are also properties of the flex items: align-self, flex-basis, flex-shrink, and flex-grow.  I will not get into them here.</p> <h2 class="svelte-13vdg2l" data-svelte-h="svelte-1b3io09">The Interactive Demo!</h2> <p class="svelte-13vdg2l" data-svelte-h="svelte-132i0bi">Here is a flex container with a defined width and height and flex-wrap: wrap.  Experiment with the menus to get a feel for flex.</p> <div class="flex-container svelte-13vdg2l"><label class="svelte-13vdg2l" data-svelte-h="svelte-1oyobz">flex-direction:</label> <select class="svelte-13vdg2l"><option value="row">row </option><option value="row-reverse">row-reverse </option><option value="column">column </option><option value="column-reverse">column-reverse </option></select></div> <div class="flex-container svelte-13vdg2l"><label class="svelte-13vdg2l" data-svelte-h="svelte-1omac8y">justify-content:</label> <select class="svelte-13vdg2l"><option value="flex-start">flex-start </option><option value="flex-end">flex-end </option><option value="center">center </option><option value="space-between">space-between </option><option value="space-around">space-around </option><option value="space-evenly">space-evenly </option></select></div> <div class="flex-container svelte-13vdg2l"><label class="svelte-13vdg2l" data-svelte-h="svelte-pmxuin">align-content:</label> <select class="svelte-13vdg2l"><option value="flex-start">flex-start </option><option value="flex-end">flex-end </option><option value="center">center </option><option value="space-between">space-between </option><option value="space-around">space-around </option><option value="space-evenly">space-evenly </option><option value="stretch">stretch </option></select></div> <div class="flex-container svelte-13vdg2l"><div class="flex-container svelte-13vdg2l"><label class="svelte-13vdg2l" data-svelte-h="svelte-6z3q4u">align-items:</label> <select class="svelte-13vdg2l"><option value="flex-start">flex-start </option><option value="flex-end">flex-end </option><option value="center">center </option><option value="stretch">stretch </option><option value="baseline">baseline </option></select></div></div> <div class="flex-container svelte-13vdg2l"><div class="flex-display svelte-13vdg2l" style="flex-direction: row; justify-content: flex-start; align-content: flex-start; align-items: flex-start;"><div class="flex-item svelte-13vdg2l">1</div><div class="flex-item svelte-13vdg2l">2abc</div><div class="flex-item svelte-13vdg2l">3</div><div class="flex-item svelte-13vdg2l">4
+d
+e
+f</div><div class="flex-item svelte-13vdg2l">5ghi</div><div class="flex-item svelte-13vdg2l">6</div><div class="flex-item svelte-13vdg2l">7
+j
+k
+l</div></div></div> <br> <br> <br> <br> </div></main> <footer data-svelte-h="svelte-owhq1p"></footer> </div> 
+			
+			<script>
+				{
+					__sveltekit_def8v2 = {
+						assets: "/portfolio",
+						base: new URL("..", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("../_app/immutable/entry/start.gsKrTxvZ.js"),
+						import("../_app/immutable/entry/app.UWFQptXc.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 7],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
