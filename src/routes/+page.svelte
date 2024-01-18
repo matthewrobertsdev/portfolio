@@ -14,7 +14,7 @@
 <img src={profilePic} class="profile" alt="Profile Picture of Matt Roberts with a blue shirt and tie">
 </div>
 <h1>Hi, I'm Matt. 👋🏻</h1>
-  <h2>I'm a developer, tutor, and QA engineer and tester.</h2>
+  <h2>I'm a developer and QA engineer.</h2>
   <h3>Check out my apps, my work for clients, my tech notes, and my resume.</h3>
 </div>
 
